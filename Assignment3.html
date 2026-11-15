@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+
+<form action="Thankyou.html" method="get">
+
+    <input type="hidden" name="UserID" value="123">
+
+    First Name:
+    <input type="text" name="FirstName" required><br><br>
+
+    Last Name:
+    <input type="text" name="LastName" required><br><br>
+
+    Email:
+    <input type="email" name="Email" required><br><br>
+
+    Password:
+    <input type="password" name="Password" required><br><br>
+
+    Repeat Password:
+    <input type="password" name="RepeatPassword" required><br><br>
+
+    Upload Picture:
+    <input type="file" name="Picture"><br><br>
+
+    Gender:
+    <input type="radio" name="Gender" value="Male"> Male
+    <input type="radio" name="Gender" value="Female"> Female<br><br>
+
+    Faculty:
+    <select name="Faculty">
+        <option>Engineering</option>
+        <option>Computer Science</option>
+        <option>Commerce</option>
+    </select><br><br>
+
+    Interests:
+    <input type="checkbox" name="Interests" value="Sports"> Sports
+    <input type="checkbox" name="Interests" value="Reading"> Reading
+    <input type="checkbox" name="Interests" value="Music"> Music<br><br>
+
+    About You:
+    <textarea name="AboutYou"></textarea><br><br>
+
+    Phone Number:
+    <input type="tel" name="Phone"><br><br>
+
+    GPA:
+    <input type="number" name="GPA" min="0" max="4" step="0.01"><br><br>
+
+    Date of Birth:
+    <input type="date" name="DOB"><br><br>
+
+    <input type="checkbox" required> I agree to terms and conditions<br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
